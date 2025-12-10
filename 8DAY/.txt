@@ -1,0 +1,108 @@
+## input function :-
+=> it is used to take data from the user.
+
+NOte: by default it gives us string value.
+=> that's why we have to specify, data types , whatever we want for output.
+
+# integer = 10
+# float = 10.5
+# string = "Hello"
+# boolean = True
+
+# Binary Table:-
+0000 = 0
+0001 = 1
+0010 = 2
+0011 = 3
+0100 = 4
+0101 = 5
+0110 = 6
+0111 = 7
+1000 = 8
+1001 = 9
+1010 = 10 => A
+1011 = 11 => B
+1100 = 12 => C
+1101 = 13 => D
+1110 = 14 => E
+1111 = 15 => F
+
+## Digital Electronics:-
+Logic gates, sequential circuit
+
+1.AND gate :- ( y = A * B  )
+=> Truth table :-
+
+A     B      Y
+0     0      0
+0     1      0
+1     0      0
+1     1      1
+
+2. OR gate :- (y = A + B)
+=> Truth table :-
+
+A     B      Y
+0     0      0
+0     1      1
+1     0      1
+1     1      1
+
+3. Xor Gate :
+=> if both are similar then it gives 0 otherwise it gives it gives 1.
+Truth table :-
+
+A     B      Y
+0     0      0
+0     1      1
+1     0      1 
+1     1      0
+
+
+
+
+# AND Operator:-
+# It returns True if both the conditions are True.
+# otherwise, it returns False.
+=> if both are 1 it return 1 otherwise it returns 0
+
+# OR Operator:-
+# It returns True if at least one condition is True.
+# otherwise, it returns False.
+=> if both are false it returns false otherwise it return true.
+=> if both are 0 it returns 0 , otherwise it returns 1.
+
+
+1 => True
+0 => False
+
+## Logical Operators:-
+# => It is used to combine two or more conditions.
+# => it returns boolean value(True or False)
+
+
+# EX: and, or, not 
+
+# in C and other programming languages:
+# and => &&           
+# or => ||
+# not => !
+
+
+
+# AND Operator:-
+# It returns True if both the conditions are True.
+# otherwise, it returns False.
+
+# OR Operator:-
+# It returns True if at least one condition is True.
+# otherwise, it returns False.
+
+5. Bitwise Operations in Python:-
+# => Bitwise operations are used to perform operations on binary numbers.
+# => it works on bits and performs bit by bit operation.
+
+# EX: &, |, ^, ~, 
+
+# AND(&) Operator:-
+# It returns 1 if both the bits are 1. 

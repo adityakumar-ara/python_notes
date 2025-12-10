@@ -1,0 +1,121 @@
+# Binary Table:-
+# 0000 = 0
+# 0001 = 1
+# 0010 = 2
+# 0011 = 3
+# 0100 = 4
+# 0101 = 5
+# 0110 = 6
+# 0111 = 7
+# 1000 = 8
+# 1001 = 9
+# 1010 = 10 => A
+# 1011 = 11 => B
+# 1100 = 12 => C
+# 1101 = 13 => D
+# 1110 = 14 => E
+# 1111 = 15 => F
+
+
+
+
+# AND(&) Operator:-
+# It returns 1 if both the bits are 1.
+
+
+1 => True
+0 => False
+
+    
+ 
+  4  4
++3  3
+—--------
+  7  7
+
+
+
+a = 10
+b = 4
+print(a & b) 
+
+=> Binary number of a => 1010
+=> binary number of b => 0100
+
+
+    1  0  1  0
+&  0  1  0  0
+—-----------------
+    0  0  0   0    => 0
+
+
+
+x = 5
+y = 3
+print(x & y)
+
+=> binary of 5 => 0101
+=> binary of 3 => 0011
+
+     0 1 0 1
+&   0 0 1 1
+—---------------
+     0 0 0 1     =>1
+
+1 & 1 => 1,0 & 1 => 0,1 & 0 => 0,0 & 0 => 0
+
+
+=> binary number of 5 => 0101
+=> binary number of 6 => 0110
+
+      0 1 0 1
+ &   0 1 1 0
+—---------------
+      0 1 0 0     => 4
+
+ 1 & 0 => 0, 0 & 1 => 0, 1 & 1 => 1, 0 & 0 => 0
+
+
+
+# Bitwise Or oprator
+A = 5
+B = 6
+print(A | B)
+
+
+#5 = 0101
+#6 = 0110
+   # 0111
+
+A = 5
+B = 6
+print(A ^ B)
+
+#5 = 0101
+#6 = 0110
+   # 0011
+
+
+
+5. Membership Operator:-
+
+
+
+
+# 5. Membership Operator:-
+# => Membership operators are used to test whether a sequence is presented in an object.
+# => it returns True if the sequence is present in the object otherwise it returns False.
+
+
+# EX: in, not in
+# in Operator:-
+# It returns True if the value is found in the specified sequence, otherwise it returns False.
+
+## not in Operator:-
+# It returns True if the value is not found in the specified sequence, otherwise it returns False
+
+Ravi = [1, 2, 3, 4, 5, 6, 7, 8, 9] 
+print(5 in Ravi)  # True
+print(15 not in Ravi)  
+
+

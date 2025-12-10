@@ -1,0 +1,55 @@
+# 2. Assignment Operators
+a = 10 Mangoes
+b= 30 mangoes
+
+a = a + b OR 10 mangoes + 30 mangoes => 40 mangoes
+
+a = a+ b  => 5 seconds
+OR
+a += b   => 2 seconds
+
+
+## Time Complexity => Time taken by any code to run.
+
+## Space Complexity => 
+
+
+Zeyarat = 5 Projects
+Ravi = 10 Projects 
+
+
+Zayarat = 10 * 5 Projects 
+
+# 2. Assignment Operators
+
+# => It is used to assign a value to a variable.
+
+# Example: =, +=, -=, *=, /=, //=, %=, **=
+
+# 3. Comparison Operators
+
+# => It is used to compare two values.
+
+EX: ==, !=, >, <, >=, <=
+
+## Logical Operators:-
+# => It is used to combine two or more conditions.
+# => it returns boolean value(True or False)
+
+
+# EX: and, or, not 
+
+# in C and other programming languages:
+# and => && 
+# or => ||
+# not => !
+
+
+
+# AND Operator:-
+# It returns True if both the conditions are True.
+# otherwise, it returns False.
+
+# OR Operator:-
+# It returns True if at least one condition is True.
+# otherwise, it returns False.

@@ -1,0 +1,48 @@
+
+
+# Water Bottle => it is just like a container which contains/stores some quantity of water
+
+# Variable => it is just like a container which contains/stores some value.
+
+# Example: x, name, age, first_name, last_name etc.
+
+## Rules to declare a variable:
+
+1. A variable name must start with a letter or the underscore character "_".
+
+Example: _name, name, name1, name_1 etc.
+
+2. A variable name only contains letters, numbers and the underscore character "_".
+=> a variable name cannot contain spaces or special characters like !, @, #, $, %, ^, &, * etc.
+3. A variable name is always case-sensitive.
+=> first_name and FIRST_NAME are two different variables.
+
+
+Except SQL(Structured Query Language)
+Ex: SELECT * FROM accounts_product;
+ language, all other programming languages are case-sensitive.
+
+Case-Sensitive :-
+1. Uppercase letters/Capital letters: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
+
+2. Lowercase letters/Small letters: a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z
+
+4. Keywords are not allwowed to be used as variable names.
+
+## Keywords: keywords are the words that are predefined in a programming language.
+Ex: print, if, else, elif, for, while, break, continue, def, return, import, as, from, in, is, not, and, or, lambda, with, try, except, finally, class, pass, raise, yield, global, nonlocal, assert, del
+
+5. A variable name always should be meaningful.
+Ex: first_name, last_name, age, roll_number, total_marks, average_marks etc
+
+
+—-------------------------------------------------------------------------------------------------------- 
+
+
+# Job k regarding form application
+
+name OR emp_name
+salary OR emp_salary
+age OR emp_age
+
+Task: Please Expore operators 

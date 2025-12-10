@@ -1,0 +1,52 @@
+1. WHat is Programming Language?
+=> A programming language is a formal language that devlopers use to communicate with computers.
+
+## Types: 
+1. High level Language :
+=> it is software oriented/related.
+=> Uses : it is used in software development, website development, app development, machine learning, data science.
+=> EXAMPLE: C++ , Java, Pyhton , PHP, JavaScript etc.
+
+2. Low level Language:-
+=> it is hardware oriented/related.
+=> it is used in induction, washing machines, keyboards, Mouse, Joystick etc.
+=> Example : Maching language, assembly language etc.
+
+
+
+## APPLICATION : -
+=> An application is a type of software that is designed to perform some specific task. 
+
+=> TYPES: 
+1. WEb application:-
+
+3. Desktop application:-2. Mobile application:-
+
+
+1.WEb application :-
+=> it runs inside any browser(Chrome, Microsoft Edge, Opera mini, Firefox, Safari etc) as a website.
+=> it requires an internet connection.
+=> it is platform independent(Operating system: Windows, MacOs etc).
+=> EXAMPLE: youtube, WhatsApp, facebook, Flipkart, Amazon Google meet etc.
+
+2. MObile Application :-
+=> it is designed to run on smartphones or tablets.
+
+=> TYPES: 
+(a). Mobile web application:
+=> there are so many applications that run on a mobile inside a browser as a website. 
+=> it requires an internet connection.
+=> it is platform independent.
+=> NO need to install from app store, or play store.
+=> access via url
+=> EXAMPLE: Google docs, google sheet etc
+
+(b) Native application:-
+=> it is developed for any specific platform.
+=> it is platform dependent. 
+=> EXAMPLE: Appstore, playstore,apple music etc.
+
+(c) Hybrid application :-
+=> it is a combination of Native and mobile web applications.
+=> it runs as a website as well as runs on android and iOS.
+=> EXAMPLE: Youtube, WhatsApp, Facebook, Instagram etc

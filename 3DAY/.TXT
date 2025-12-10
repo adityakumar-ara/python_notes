@@ -1,0 +1,33 @@
+## Website:-
+=> Parts:_________
+1. FRONTEND => User visible 
+2. Backend => Owner accessible and accessible by Person.
+
+1.Frontend => Parts of web development that deal with User Interface(UI).
+
+## TECHNOLOGY :-
+=> Html => it is used to build the body of any web page.
+=> CSS => it is used to apply styling on any web page.
+=> CSS(Library) => Bootstrap, Tailwind
+=> JavaScript 
+=> React/reat.js => it works componenet based 
+
+## why => First impression( Jo dikhega whi Bikega)
+
+
+
+2. Backend => the part of web development that deals with server side logic.
+
+## Technology:-
+=> Python(Django,Flask,Pandas,NumPy) , JavaScript(Node.js), Java(Springboot), Php(Laravel). 
+
+
+3. Database :-
+=> it is used to store our data in the structured form .
+=> it handles security issues.
+=> Example: MySQL, PostgreSQL(PgSQL), MongoDB 
+=> for databases we use Structured Query language.
+
+
+
+##TASK:  5W things of PYTHON
