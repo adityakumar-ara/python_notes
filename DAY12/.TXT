@@ -1,0 +1,152 @@
+language = "Programming"
+
+
+Positive Indexing:-
+
+0 1 2 3 4 5 6 7 8 9 10
+P r o g r a m m i n g
+
+Negative  Indexing:-
+  P     r      o    g     r    a    m    m    i    n     g
+-11  -10   -9   -8   -7   -6   -5    -4   -3   -2    -1
+
+String slicing:-
+=> Cake : String  ( Big part)
+=> one slice of Cake  : Substring  ( small Part)
+
+Note:-
+=> Slice : Two Parameters, Three parameters
+=> ending points will always be excluded.
+=> By default the starting point will be 0.
+=> by default the ending point will be the last index.
+
+Two parameters:
+=> first parameter is starting point
+=> The second parameter is the ending point.
+
+
+print(language[0:8]) 
+=> 0 => starting point
+=> 8 => ending point (excluded)
+
+
+
+
+0 1 2 3 4 5 6 7 8 9 10
+P r o g r a m m i n g
+
+language = "Programming"
+print(language[2:9])
+
+
+OUTPUT:-   ogrammi
+
+starting point => 2
+ending point => 9 (excluded)
+
+print(language[0: ]) 
+starting point = 0
+ending point => last index 
+
+
+print(language[ : ])
+starting point => 0
+ending point => last index 
+
+
+print(language[ 4: -1])
+starting point => 4
+ending point => -1 OR 10 (excluded)
+
+
+0 1 2 3 4 5 6 7 8 9 10
+P r o g r a m m i n g
+
+  P       r     o     g      r     a     m    m     i      n      g
+-11    -10  -9    -8    -7    -6    -5    -4    -3    -2     -1
+
+print(language[-8: ])
+starting point => -8
+ending point => last index
+
+Slicing: Three parameters
+=> first paraemeter => starting point
+=> second parameter => ending point
+=> third parameter => Gap (N-1)
+=> By default gap = 1
+
+
+language[0:7:1]
+=> starting point => 0
+=> ending point => 7
+=> gap => 1 => N-1 => 1-1 = 0
+
+language = "Programming"
+print("with gap the output is", language[0:7:1])
+print("without gap the output is ", language[0:7])
+
+
+with gap the output is   Program     
+without gap the output is   Program   
+
+0  1   2  3  4  5   6   7   8   9
+ j  a   v  a  s   c   r    i    p   t
+
+language2 = "javascript"
+print(language2[0:9:2])
+
+
+Output  Jvsrp 
+
+starting point => 0
+ending point => 9
+gap = 2 , N-1 => 2-1 => 1 , GAP = 1
+—---
+language = "Programming"
+print(language)
+print(language[9])
+print(language[8])
+print(language[-2])
+print(language[-6])
+print(language[0:8])  #e r a m m
+print(language[2:9])  # o g r a m m i
+print(language[0: ])  # P r o g r a m m i n g
+print(language[ : ])  # P r o g r a m m i n g
+print(language[ 4: -1])  # r a m m i n
+print(language[-8: ])  # g   r   a   m   m   i   n    g
+
+print("with gap the output is", language[0:7:1])
+print("without gap the output is ", language[0:7])
+
+
+
+
+Output
+Programming
+n
+i
+n
+a
+Programm
+ogrammi
+Programming
+Programming
+rammin
+gramming
+with gap the output is Program
+without gap the output is  Program
+
+—----
+
+
+—-------------------------------
+language2 = "javascript"
+print(language2[0:9:2]) # jvsrp
+print(language2[0:11:2]) # jvsrp
+
+
+Output
+jvsrp
+jvsrp
+
+—-------------------

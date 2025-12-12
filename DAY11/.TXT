@@ -1,0 +1,66 @@
+Quotation mark  " " 
+
+Types of Quotation mark 
+  ' ' => Single QUotation mark
+ " " => Double QUotation mark
+ ''' ''' => Tripe QUotation mark 
+
+ first_sentence => "Rohan's watch" => Double QUotaion
+ second_sentence => 'Rohan' => Single QUotation 
+ third_sentence => '''it was the fantastic topic "HOstel life"'''
+
+
+String 
+ integer : 3,4,5,6,7,8
+ Float : 3.3, 5.9
+ string => "Ravi", "Python", "Java", "Aditya"
+ Boolean => True, False 
+ Character => 'H'
+
+In English Grammar
+Alphabets: a,b,c ........
+Words => group of letters  => ravi, ziyarat,Niraj
+sentence : This is Ravi
+
+
+
+In Coding:-
+
+Alphbets/ Letters => Character
+Words/ Sentence => String (Group of Characters/Group of Words)
+String => it is sequence of characters.  Example: Pandey, Niraj, Ajit, THis is Ravi
+
+
+
+
+
+
+Sonu XYZ 
+
+first_name = "Sonu"
+last_name= "xyz"
+full_name = first_name + ' ' + last_name
+
+
+Output
+Sonu xyz
+
+
+
+String Replication ("*"):- it is used to repeate any strings multiple time. 
+
+first_name = "Sonu"
+last_name= "xyz"
+full_name = first_name + ' ' + last_name
+print(first_name)
+print(full_name)
+print(full_name*6) #<-String Replication
+name = "Ravi"
+print(name*70)   #<-String Replication
+
+
+Output
+Sonu
+Sonu xyz
+Sonu xyzSonu xyzSonu xyzSonu xyzSonu xyzSonu xyz
+RaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRaviRavi
