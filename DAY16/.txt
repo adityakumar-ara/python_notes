@@ -1,0 +1,136 @@
+my_number = 777
+
+if (my_number < 500):
+     print("bhai ye print hone chahiye agr condition true hai to")
+else:
+     print("bhai ye print hone chahiye agr condition false hai to")
+
+# NOTE: we can keep our condition in parenthesis () but it is not mandatory in python.
+
+
+OUTPUT:->  bhai ye print hone chahiye agr condition false hai to
+
+
+
+Modulus ("%") => it gives us remainder by using division operation.
+12 % 2 = 0
+13 % 2 = 1
+99 % 2 = 1
+1111 % 2 = 1
+777777777777 % 2 = 1
+9999999999999999999999999999999 % 2 = 1
+even number => the number which is divisible by 2.
+n = kuch bhi ho skta hai
+n % 2 == 0 => even number  
+n % 2 != 0 => odd number
+EXAMPLE
+if (n % 2 == 0):
+  print(" this is even number ")
+
+else:
+ print(" this is odd number " )
+
+
+
+
+
+
+
+🧮 Program 1: Check if number is Positive or Negative
+my_number = int(input("Hii, Ujwal! Enter your favorite number: "))
+
+if my_number > 0:
+    print("Your favorite number is positive.")
+else:
+    print("Your favorite number is negative.")
+
+
+
+
+OUTPUT
+Hii, Ujwal! Enter your favorite number: 25
+Your favorite number is positive.
+
+
+
+
+
+
+🔢 Program 2: Check Even or Odd Number
+my_number = int(input("Hii, Ujwal! Enter your favorite number: "))
+
+if my_number % 2 == 0:
+    print("This is an even number.")
+else:
+    print("This is an odd number.")
+
+
+OUTPUT
+Hii, Ujwal! Enter your favorite number: 7
+This is an odd number.
+
+
+
+
+
+
+🗳️ Program 3: Voting Eligibility in Bihar
+my_age = int(input("Hii, Ujwal! Enter your age: "))
+residence = input("Do you live in Bihar? (yes/no): ").lower()
+
+if my_age >= 18 and residence == 'yes':
+    print("You are eligible to vote in Bihar.")
+else:
+    print("You are not eligible to vote in Bihar.")
+
+
+Hii, Ujwal! Enter your age: 20
+Do you live in Bihar? (yes/no):    #yes
+You are eligible to vote in Bihar.
+
+
+
+
+🧠 Program 4: Rohit’s Class Attendance
+rohit_status = input("When did Rohit reach the class? ").lower()
+
+if rohit_status == "on time":
+    print("Rohit will attend all the lectures.")
+elif rohit_status == "just after first lecture":
+    print("Rohit will attend the rest of the lectures.")
+elif rohit_status == "after lunch":
+    print("Rohit will attend a few lectures only.")
+elif rohit_status == "before class ends":
+    print("Rohit will attend the last lecture only.")
+else:
+    print("Rohit will not attend any lectures.")
+
+
+OUTPUT
+When did Rohit reach the class? after lunch
+Rohit will attend a few lectures only.
+
+
+
+
+
+🏫 Program 5: Student Grading System
+your_score = int(input("Enter your score (0-100): "))
+elif your_score >= 90:
+    print("Grade: A")
+elif your_score >= 65:
+    print("Grade: B")
+elif your_score >= 55:
+    print("Grade: C")
+else:
+    print("Grade: F")
+print("Thank you for using the grading system.")
+
+
+Output
+
+Enter your score (0-100):  50
+Grade: F
+Thank you for using the grading system.
+
+

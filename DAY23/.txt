@@ -1,0 +1,195 @@
+While Loop & Increment Concept 
+
+1. Basic While Loop Structure
+i = 0
+
+while (i < 5):
+    print(i)
+    i += 1
+
+Key Points
+Python does not support:
+
+
+i++ (post-increment)
+++i (pre-increment)
+
+
+You must use:
+
+
+i = i + 1
+i += 1
+
+
+
+2. Why Python Does Not Support i++ / ++i
+In languages like C, C++, Java:
+i++ means post-increment (use the value first, then increment)
+++i means pre-increment (increment first, then use the value)
+
+
+Python avoids these because it keeps the syntax clean and less confusing.
+
+3. Example in C to Show the Difference
+#include <stdio.h>
+
+int main()
+{
+    int a = 5;
+
+    printf("a = %d\n", a++);  // prints 5 (post-increment)
+    printf("a = %d\n", a);    // prints 6
+
+    return 0;
+}
+
+
+Explanation
+a++ → prints 5, then becomes 6
+Priority of printf is higher than the post-increment
+
+
+
+
+
+4. Step-by-Step Execution of While Loop
+Code
+i = 0
+
+while (i < 5):
+    print(i)
+    i += 1
+
+
+
+
+
+Phase-by-Phase Working
+phase 1
+
+1.⁠ ⁠initialization , i = 0
+2.⁠ ⁠condition check , ( i < 5 ) , 0 < 5 => TRUE
+3.⁠ ⁠perform task , print(i)   , 
+4.⁠ ⁠increment loop variable , 0 = 0 + 1 => 1
+
+Phase 2
+
+1.⁠ ⁠initialization , i = 1
+2.⁠ ⁠condition check , ( i< 5) , 1 < 5 , => TRUE
+3.⁠ ⁠perform task, print(i)
+4.⁠ ⁠increment loop variable , 1 ++ => 2
+
+Phase 3
+
+1.⁠ ⁠initialization , i = 2
+2.⁠ ⁠condition check , ( i< 5) , 2 < 5 => TRUE 
+3.⁠ ⁠perform task , print(i)
+4.⁠ ⁠increment loop variable, 2 ++ => 3
+
+PHase 4
+1.⁠ ⁠initialization , i = 3
+2.⁠ ⁠condition check , ( i< 5) , 3 < 5 => TRUE 
+3.⁠ ⁠perform task , print(i)
+4.⁠ ⁠increment loop variable, 3++ => 4
+
+Phase 5 
+1.⁠ ⁠initialization , i = 4
+2.⁠ ⁠condition check , ( i< 5) ,4 < 5 => TRUE 
+3.⁠ ⁠perform task , print(i)
+4.⁠ ⁠increment loop variable, 4++ => 5
+
+Phase 6
+
+1.⁠ ⁠initialization , i = 5
+2.⁠ ⁠condition check , ( i< 5) , 5 < 5 => FALSE 
+3.⁠ ⁠we exit from the loop
+
+Final Output
+0
+1
+2
+3
+4
+
+
+
+
+
+
+PROGRAM 1 — Print 1 to 6 using While Loop
+i = 1
+while(i < 7):
+    print(i)
+    i = i + 1
+
+
+OUTPUT
+1
+2
+3
+4
+5
+6
+
+
+
+PROGRAM 2 — Even–Odd Check
+a = 15
+if(a % 2 == 0):
+    print("Even Num =", a)
+else:
+    print("Odd Number =", a)
+
+
+OUTPUT
+Odd Number = 15
+
+
+
+PROGRAM 3 — Print Even Numbers From 1 to 99
+i = 1
+while(i < 100):
+    if(i % 2 == 0):
+        print(i)
+    i = i + 1
+
+
+OUTPUT (partial)
+2
+to
+98
+
+
+
+PROGRAM 4 — Print Even Numbers From User Input to 99
+i = int(input("Hii Ujjwal Enter Value Of i = "))
+while(i < 100):
+    if(i % 2 == 0):
+        print(i)
+    i = i + 1
+
+
+OUTPUT (Example: user enters 10)
+10
+To
+98
+
+
+PROGRAM 5 — Even Numbers Between Start & End (User Input)
+i = int(input("Hii Ujjwal Enter Value Of Stating Point = "))
+ending_point = int(input("Enter The Value Of Ending Point = "))
+
+while(i < ending_point):
+    if(i % 2 == 0):
+        print(i)
+    i = i + 1
+
+
+OUTPUT (Example: start=5, end=16)
+6
+8
+10
+12
+14
+

@@ -1,0 +1,152 @@
+🏫 Program 1: Chek Positiv / Negative / zero
+#   x > 0 => Positive number
+#   x < 0 => Negative number
+#   x == 0 => zero
+
+my_num = int(input("enter the number"))
+
+if my_num > 0:
+                   print("it is positve number")
+elif my_num == 0:
+                   print("it is zero")
+else:
+                   print("it is negative number")
+
+
+OutPut
+If my_num = 5 -> it is positve number
+If my_num = -5 -> it is negative number
+If my_num = 0 -> it is it is negative number
+
+
+🏫 Program 2: Chek greater
+my_1st_num = int(input("Enter the first number: "))
+my_2nd_num = int(input("Enter the second number: "))
+
+if my_1st_num > my_2nd_num:
+    print("First number is greater")
+else:
+    print("Second number is greater")
+
+
+
+
+
+🏫 Program 3: Chek greatest With Check 3 Condition
+my_1st_num = int(input("enter the first number"))
+my_2nd_num = int(input("enter the second number"))
+my_3rd_num = int(input("enter the third number"))
+
+if my_1st_num > my_2nd_num and my_1st_num > my_3rd_num :
+                   print("first number is greatest")
+
+elif my_2nd_num > my_1st_num and my_2nd_num > my_3rd_num:
+                   print("second number is greatest ")
+
+else:
+                   print("third number is greatest")
+
+
+
+🏫 Program 4: Create Login credential by if and else
+username = "ujwal@123"
+
+password = "12345678"
+
+if username == "ujwal@123" and password == "12345678":
+                   print("login succeessfully")
+elif username == "ravi@123" and  password == "12345678":
+                   print("your username is incrrect ")
+
+else:
+                   print("Invalide Credential")
+
+   
+🏫 Program 5: Revise If / else / elif
+trafic_light = "yellow"
+
+if trafic_light == "red":
+                   print("please Stop")
+
+elif trafic_light == "yellow":
+                   print("ready to go")
+
+elif trafic_light == "green":
+                   print("go")
+
+else:
+                   print("invalide color")
+
+
+
+
+
+
+Nested
+# Nested box => if a box inside another box , then we can it is called nested box.
+
+# Nested if => if an if statemnt inside another if statement , then it called nested if.
+
+
+
+🏫 Program 1: Chek Voting Eligibility Using Nested
+age = int(input("hii, Shivam! plesae enter your age"))
+
+resident = "Bihar"
+
+if age > 18 :
+
+     if resident == "Bihar":
+                   print("you are eligible to vote")
+     else:
+                   print("sorry, you are not eligible to vote, becuase you are not resident of Bihar")
+else:
+                   print("you are not eligible to vote")
+
+
+
+
+
+
+
+
+🏫 Program 2: Chek Drcc Loan Eligibility Using Nested
+resident = input("enter your residence")
+is_12th_pass_out = True
+
+have_bonafide_certificate = True
+
+if resident.lower() == "bihar":
+                   if is_12th_pass_out == True:
+                                 print("okay now please apply for bonafide certificate") 
+                                 if have_bonafide_certificate == True:
+                                       print("Congrats , You can apply DRCC loan")
+                                 else:
+                                       print("srry you have to apply firstly")
+                   else:
+                                       print("firstly you have to complete 12th")
+                  
+else:
+                   print("sorry, You can get a loan from DRCC.")
+
+
+
+
+
+
+
+
+
+🏫 Program 2: Chek Loan Eligibility Using Nested
+civil_score = int(input("Hii, Ravi! please enter your civil score"))
+income = int(input("hii, Ravi! enter your income"))
+
+if civil_score > 750:
+                   if income > 350000 :
+                                       print("congrats , you can apply home load from SBI bank")
+                   else:
+                                       print("sorry , you can't get a loan, because you income is very low")
+                  
+else:
+              print("according to the Bank policy , you account is eligible to get a loan")
+

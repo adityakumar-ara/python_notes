@@ -107,14 +107,6 @@ Third element of my_list:  Ziyarat
 Fourth element of my_list:  Ujwal
 
 
-
-
-
-
-
-
-
-
  Negative Indexing:-
 
 my_list = [ 'Ravi', 'Sonu', 'Ziyarat', 'Ujwal' ]

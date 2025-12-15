@@ -1,0 +1,138 @@
+⭐ 3. insert()
+Purpose: Adds an element at a specific index.
+my_list = [11, 22, 33, 44]
+print("Before:", my_list)
+
+my_list.insert(2, 999)   # Inserts 999 at index 2
+print("After:", my_list)
+
+
+Output
+Before: [11, 22, 33, 44]
+After: [11, 22, 999, 33, 44]
+
+
+
+⭐ 4. remove()
+Purpose: Removes a specific element from the list.
+ Removes only the first occurrence.
+my_list = [11, 22, 22, 33, 44]
+print("Before:", my_list)
+
+my_list.remove(22)
+print("After:", my_list)
+
+
+
+Output
+Before: [11, 22, 22, 33, 44]
+After: [11, 22, 33, 44]
+
+
+
+⭐ 5. pop()
+Purpose:
+By default → removes last element
+
+
+With index → removes element at that specific index
+
+
+my_list = [11, 22, 24, 33, 44]
+print("Before:", my_list)
+
+my_list.pop(1)   # Removes element at index 1
+print("After:", my_list)
+
+
+Output
+Before: [11, 22, 24, 33, 44]
+After: [11, 24, 33, 44]
+
+
+⭐ 6. index()
+Purpose: Returns the index of a specific element.
+my_list = [11, 22, 24, 33, 44, 100, 1000, 100]
+print("Index of 24:", my_list.index(24))
+
+
+
+Output
+Index of 24: 2
+
+❌ If element not found → ValueError
+my_list.index(500)  
+# Error: 500 is not in list
+
+⭐ 7. count()
+Purpose: Returns how many times an element appears in the list.
+my_list = [11, 22, 24, 33, 44, 100, 1000, 100]
+print("Count of 100:", my_list.count(100))
+
+
+Output
+Count of 100: 2
+
+
+⭐ 8. sort()
+Purpose: Sorts the list in ascending order.
+my_list = [11, 22, 24, 33, 44, 100, 1000, 100, 77]
+print("Before:", my_list)
+
+my_list.sort()
+print("After:", my_list)
+
+
+Output
+Before: [11, 22, 24, 33, 44, 100, 1000, 100, 77]
+After: [11, 22, 24, 33, 44, 77, 100, 100, 1000]
+
+
+
+
+
+
+⭐ 9. reverse()
+Purpose: Reverses the list order.
+my_list = [11, 22, 24, 33, 44, 100, 1000, 100, 77]
+print("Before:", my_list)
+
+my_list.reverse()
+print("After:", my_list)
+
+
+Output
+Before: [11, 22, 24, 33, 44, 100, 1000, 100, 77]
+After: [77, 100, 1000, 100, 44, 33, 24, 22, 11]
+
+
+⭐ 10. copy()
+Purpose: Creates a duplicate copy of the list.
+my_list = [11, 22, 24, 33, 44, 100, 1000, 100, 77]
+copied_list = my_list.copy()
+
+print("Copied list:", copied_list)
+
+
+
+Output
+Copied list: [11, 22, 24, 33, 44, 100, 1000, 100, 77]
+
+
+⭐ 11. clear()
+Purpose: Removes all elements from the list.
+my_list = [11, 22, 24, 33, 44, 100, 1000, 100, 77]
+copied_list = my_list.copy()
+
+print("Copied list:", copied_list)
+print("Before:", my_list)
+
+my_list.clear()
+print("After:", my_list)
+
+
+Output
+Copied list: [11, 22, 24, 33, 44, 100, 1000, 100, 77]
+Before: [11, 22, 24, 33, 44, 100, 1000, 100, 77]
+After: [ ]
+
