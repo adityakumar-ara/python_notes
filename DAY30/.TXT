@@ -1,0 +1,147 @@
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<_----------------------For Loop, Break, Continue------------------------------>>>>>>>>>>>>>
+For Loop with range()
+for i in range(5):
+    print(i)
+
+
+Output:
+0
+1
+2
+3
+4
+
+
+
+for i in range(0,5):
+    print(i)
+
+
+Output:
+0
+1
+2
+3
+4
+
+
+📌 Here:
+0 → starting point
+
+
+5 → ending point ( excluded )
+
+
+
+
+
+
+
+
+For Loop on List (Sequence)
+#              0       1       2   3   4
+my_listt = ["Ravi", "rohit", 44, 55, 88]
+print(my_listt)
+
+for i in my_listt:
+    print(i)
+
+
+Output:
+['Ravi', 'rohit', 44, 55, 88]
+Ravi
+rohit
+44
+55
+88
+
+
+📌 For loop works on String, List, Tuple etc.
+ Because they are sequences → support indexing
+Jump Statements
+Two special control statements:
+1️⃣ break → Exit the loop immediately
+2️⃣ continue → Skip current iteration & continue loop
+
+break Example (Range Loop)
+for i in range(0, 12):
+    if i == 7:
+        break
+    print(i)
+
+Output:
+0
+1
+2
+3
+4
+5
+6
+
+
+✳️ Loop stops when i == 7
+
+Continue Example (Range Loop)
+for i in range(0, 12):
+    if i == 7:
+        continue
+    print(i)
+
+
+
+Output:
+0
+1
+2
+3
+4
+5
+6
+8
+9
+10
+11
+
+✳️ 7 skipped — but loop continues
+Break on List
+#              0       1     2   3   4
+my_listt = ["Ravi", "rohit", 44, 55, 88]
+
+for i in my_listt:
+    if i == 44:
+        break
+    print(i)
+
+Output:
+Ravi
+rohit
+
+✳️ Stops at 44
+Another list example:
+my_listt = ["Ravi", "rohit", 101, 44, 55, 88]
+
+for i in my_listt:
+    if i == 101:
+        break
+
+Output:
+Ravi
+rohit
+
+continue on List
+my_listt = ["Ravi", "rohit", 101, 44, 55, 88]
+
+for i in my_listt:
+    if i == 101:
+        continue
+    print(i)
+
+
+Output:
+Ravi
+rohit
+44
+55
+88
+
+✳️ Only 101 skipped

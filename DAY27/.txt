@@ -1,0 +1,129 @@
+Accessing List inside Dictionary
+my_dict = {
+    "name": ["Ujwal", "Ravi", "Rahul"],
+    "age": 24,
+    "city": "Bangalore",
+    "roll_no": 101
+}
+
+print(my_dict["name"])
+print(my_dict["name"][1])  # Ravi
+
+
+Output:
+['Ujwal', 'Ravi', 'Rahul']
+Ravi
+
+
+Dictionary Methods
+keys() → returns all keys
+my_dict = {
+    "name": "Ujwal",
+    "age": 24,
+    "city": "Bangalore",
+    "roll_no": 101
+}
+
+print(my_dict)
+print(my_dict.keys())
+
+
+Output:
+{'name': 'Ujwal', 'age': 24, 'city': 'Bangalore', 'roll_no': 101}
+dict_keys(['name', 'age', 'city', 'roll_no'])
+
+
+
+
+values() → returns all values
+diwakar_dictionary = {
+    "name": "Ujwal",
+    "age": 24,
+    "city": "Bangalore",
+    "roll_no": 101
+}
+
+print(diwakar_dictionary)
+print(diwakar_dictionary.values())
+
+
+Output:
+{'name': 'Ujwal', 'age': 24, 'city': 'Bangalore', 'roll_no': 101}
+dict_values(['Ujwal', 24, 'Bangalore', 101])
+
+
+
+
+
+
+
+items() → returns key-value pairs
+diwakar_dictionary = {
+    "name": "Ujwal",
+    "age": 24,
+    "city": "Bangalore",
+    "roll_no": 101
+}
+
+print(diwakar_dictionary)
+print(diwakar_dictionary.items())
+print(diwakar_dictionary["city"].upper())
+
+
+Output:
+{'name': 'Ujwal', 'age': 24, 'city': 'Bangalore', 'roll_no': 101}
+dict_items([('name', 'Ujwal'), ('age', 24), ('city', 'Bangalore'), ('roll_no', 101)])
+BANGALORE
+
+
+
+get() → returns value using key
+diwakar_dictionary = {
+    "name": "Ujwal",
+    "age": 24,
+    "city": "Bangalore",
+    "roll_no": 101
+}
+
+print(diwakar_dictionary.get("name"))
+
+
+
+Output:
+Ujwal
+
+
+
+update() → change value of a keyOutput:
+diwakar_dictionary = {
+    "name": "Ujwal",
+    "age": 24,
+    "city": "Bangalore",
+    "roll_no": 101
+}
+
+diwakar_dictionary.update({"roll_no": 251})
+print(diwakar_dictionary)
+
+
+
+
+{'name': 'Ujwal', 'age': 24, 'city': 'Bangalore', 'roll_no': 251}
+
+
+
+
+pop() → remove element by key
+diwakar_dictionary = {
+    "name": "Ujwal",
+    "age": 24,
+    "city": "Bangalore",
+    "roll_no": 101
+}
+
+diwakar_dictionary.pop("age")
+print(diwakar_dictionary)
+
+
+
+

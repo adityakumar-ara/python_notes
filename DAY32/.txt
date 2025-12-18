@@ -1,0 +1,64 @@
+<<<<<<<<<<<<------------------------------------------------Shortcuts------------------------------------------>>>>>>>>
+Below are the most useful shortcuts for programming in VS Code 👇
+
+Basic Editing ShortcutS                                        
+Shortcut
+Action
+Ctrl + C  ---------->>>>>>>> -----Copy
+
+Ctrl + V ----------->>>>>>>>>------Paste
+
+Ctrl + Z  ------------>>>>>>>>-------Undo
+
+Ctrl + Y  ------------->>>>>>>-------Redo
+
+Ctrl + Backspace  --------->>>>>>------Delete one whole word
+
+Ctrl + Enter  ------------>>>>>>>-------Insert a new line below without moving cursor to end
+
+
+
+
+------------------------>>>>>>>>>>>>>>>>>>>---Selection And Line Editing Shortc-----<<<<<<<<<<<<<<<-------------------                                 
+Shortcut
+Action
+
+
+Ctrl + L -------->>>>>>>>>-------Select current line
+
+Shift + Arrow Keys  ---------->>>>>>>>--------Select multiple lines/text
+
+Alt + Up / Down Arrow --------->>>>>>>>>--------Move selected line up/down
+
+Shift + Alt + Up / Down Arrow ---------->>>>>>>--------Duplicate current line above/below (copy & paste line)
+
+
+------------------------>>>>>>>>>>>>>>>>>>>  Commenting Shortcuts<<<<<<<<<<<<<<<  ------------------------------------      
+Shortcut
+Action
+
+
+
+Ctrl + /  -------------------->>>>>>>>>>>>>>>>>>>>------- Comment / Uncomment selected line (Single or Multi-line)
+
+
+Search Shortcuts  
+Shortcut
+Action
+
+Ctrl + F --------------------->>>>>>>>>>>>>>>>>>>>------ Find word in current file
+
+Ctrl + Shift + F ------------->>>>>>>>>>>>>>>>>>>>--------- Search a word in entire project (All files)
+
+
+Important Note:- Left sidebar search in VS Code → helps find a specific text in all code files of your project.
+
+
+
+Day: 33:-  Function And Shortcuts Overview
+
+Day: 34:-  Revision Class 
+
+
+
+

@@ -1,0 +1,23 @@
+
+# # ---------------------------------------------------------Function----------------------------------------------------------------------------
+
+Function :-
+
+=> it saves our time.
+=> it can increase code reusability.
+=> it can increase code readability.
+
+Email Aliasing:-
+
+📌 How does this work?
+If your real email address is: ravi456@gmail.com
+You can also use these:
+ravi456+1@gmail.com
+ravi456+2@gmail.com
+ravi456+anything@gmail.com
+👉 इन सब पर भेजे गए emails सभी उसी original inbox (ravi456@gmail.com) में आएंगे।
+
+Why is this useful?
+You can create different aliases when signing up on different websites.
+Later, you can filter and see which website is sending spam.
+It makes it easier to manage multiple accounts with a single email address.....

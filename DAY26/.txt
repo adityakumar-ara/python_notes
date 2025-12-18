@@ -1,0 +1,196 @@
+
+
+Set Methods + Typecasting + Dictionary Introduction
+pop() – remove random element from a set
+my_set = {11, 22, 33, "rahul", "ravi", 8.8}
+print("before pop:", my_set)
+
+my_set.pop()
+print("after pop:", my_set)
+
+
+Output
+before pop: {33, 'rahul', 8.8, 11, 22, 'ravi'}
+after pop: {'rahul', 8.8, 11, 22, 'ravi'}
+
+
+Note: It removes a random element because sets are unordered.
+
+discard() – remove specific element (NO error if not found)
+my_set = {11, 22, 33, "rahul", "ravi", 8.8}
+print("before discard:", my_set)
+
+my_set.discard(224565432)
+print("after discard:", my_set)
+
+
+Output
+before discard: {'rahul', 33, 8.8, 11, 22, 'ravi'}
+after discard: {'rahul', 33, 8.8, 11, 22, 'ravi'}
+
+
+Since the element doesn’t exist → No error
+
+clear() – remove all elements from set
+my_set = {11, 22, 33, "rahul", "ravi", 8.8}
+print("before clear:", my_set)
+
+my_set.clear()
+print("after clear:", my_set)
+
+
+Output
+before clear: {'rahul', 33, 8.8, 11, 22, 'ravi'}
+after clear: set()
+
+
+
+📌 TYPECASTING
+Typecasting = Converting one data type into another
+Types of Typecasting in Python
+1️⃣ Explicit Typecasting
+2️⃣ Implicit Typecasting
+
+
+1️⃣ Explicit Typecasting
+(Developer converts manually)
+String → Integer
+my_variable = "23"
+print(type(my_variable))
+
+my_new_variable = int(my_variable)
+print(my_new_variable)
+print(type(my_new_variable))
+
+
+Output
+<class 'str'>
+23
+<class 'int'>
+
+
+
+Integer → String
+my_variable = 23
+print(type(my_variable))
+
+my_new_variable = str(my_variable)
+print(my_new_variable)
+print(type(my_new_variable))
+
+
+
+
+
+Output
+<class 'int'>
+23
+<class 'str'>
+
+
+
+Boolean → Integer
+my_variable = True
+print(type(my_variable))
+
+my_new_variable = int(my_variable)
+print(my_new_variable)
+print(type(my_new_variable))
+
+
+Output
+<class 'bool'>
+1
+<class 'int'>
+
+
+
+Integer → Boolean
+my_variable = 1
+print(type(my_variable))
+
+my_new_variable = bool(my_variable)
+print(my_new_variable)
+print(type(my_new_variable))
+
+
+Output
+<class 'int'>
+True
+<class 'bool'>
+
+
+✔ Rule:
+bool(non-zero number) → True  
+bool(0) → False
+
+my_variable = 0
+print(type(my_variable))
+
+my_new_variable = bool(my_variable)
+print(my_new_variable)
+print(type(my_new_variable))
+
+
+Output
+<class 'int'>
+False
+<class 'bool'>
+
+
+
+2️⃣ Implicit Typecasting
+(Python automatically converts)
+my_variable = 6.7
+my_second_variable = 4
+
+print(type(my_variable))          
+print(type(my_second_variable))   
+
+print("after implicit typecasting:", my_variable + my_second_variable)
+
+
+Output
+<class 'float'>
+<class 'int'>
+after implicit typecasting: 10.7
+
+
+➡ int + float → float automatically
+
+🧾 DICTIONARY INTRODUCTION
+A dictionary stores data in key-value pairs
+ ✔ mutable
+ ✔ ordered
+ ✔ keys must be unique and immutable
+
+Example
+my_dict = {
+    "name": "Ujwal",
+    "age": 24,
+    "city": "Bangalore",
+    "roll_no": 101
+}
+
+print(my_dict)
+
+
+Output
+{'name': 'Ujwal', 'age': 24, 'city': 'Bangalore', 'roll_no': 101}
+
+
+
+Key = Left side
+Value = Right side
+Example:
+
+
+
+my_listt = [11, 22, 33, [5, 6, 7], 55]
+print(my_listt)
+
+
+📌 Difference:
+ List stores only values
+ Dictionary stores key + value together
+

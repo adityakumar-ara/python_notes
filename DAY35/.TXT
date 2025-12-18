@@ -1,0 +1,151 @@
+Program 1: Print Even Numbers from 10 to 100
+for i in range(10, 101):
+    if i % 2 == 0:
+        print(i)
+
+
+
+Output:
+10
+12
+14
+...
+98
+100
+
+
+This program prints all even numbers between 10 and 100.
+
+Program 2: Print Even Numbers Using Function
+
+
+
+def print_even_number(start, end):
+    for i in range(start, end):
+        if i % 2 == 0:
+            print(i)
+
+print_even_number(10, 21)
+
+
+
+Output:
+10
+12
+14
+16
+18
+20
+
+
+This function prints even numbers between the given start and end values.
+
+Program 3: Simple Sum Function
+def summ(a, b):
+    print(a + b)
+
+summ(99, 3)
+
+
+Output:
+102
+
+
+
+
+Program 4: Create a List Using Input Function
+👉 Input: 10, 20, 33, 44, 55
+ 
+my_listt = []
+
+for i in range(5):
+    elements = int(input("enter the elements: "))
+    my_listt.append(elements)
+    print(my_listt)
+
+
+Example Output:
+enter the elements: 10
+[10]
+enter the elements: 20
+[10, 20]
+enter the elements: 33
+[10, 20, 33]
+enter the elements: 44
+[10, 20, 33, 44]
+enter the elements: 55
+[10, 20, 33, 44, 55]
+
+
+
+Program 5: Store Friends Name Using Function
+def print_my_friends_name():
+    my_friend_list = []
+
+    for i in range(4):
+        friends = input("enter your friends name: ")
+        my_friend_list.append(friends)
+        print(my_friend_list)
+
+print_my_friends_name()
+
+
+
+Example Output:
+enter your friends name: Ravi
+['Ravi']
+enter your friends name: Rohit
+['Ravi', 'Rohit']
+enter your friends name: Aman
+['Ravi', 'Rohit', 'Aman']
+enter your friends name: Rahul
+['Ravi', 'Rohit', 'Aman', 'Rahul']
+
+
+
+
+
+
+Program 6: Average of Three Subjects (Without Function)
+maths_marks = int(input("enter the maths marks: "))
+science_marks = int(input("enter the science marks: "))
+english_marks = int(input("enter your english marks: "))
+
+total = maths_marks + science_marks + english_marks
+average = total / 3
+
+print(average)
+
+
+Example Output:
+enter the maths marks: 60
+enter the science marks: 70
+enter your english marks: 80
+70.0
+
+
+
+
+
+
+Program 7: Average of Marks Using Function
+def find_average_of_all_subject_marks(number_of_sub):
+
+    maths_marks = int(input("enter the maths marks: "))
+    science_marks = int(input("enter the science marks: "))
+    english_marks = int(input("enter your english marks: "))
+
+    total = maths_marks + science_marks + english_marks
+    average = total / number_of_sub
+
+    print(average)
+
+find_average_of_all_subject_marks(3)
+
+
+Example Output:
+enter the maths marks: 75
+enter the science marks: 65
+enter your english marks: 70
+70.0
+

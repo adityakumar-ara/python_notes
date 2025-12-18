@@ -1,0 +1,127 @@
+ 
+ 
+ 
+Functions + User Input + Even/Odd Program
+
+
+What is a Function?
+
+A function is a block of code that performs a specific task when called.
+
+
+Advantages:
+✔️ Code reusability
+✔️ Increases readability
+✔️ Saves development time
+
+
+
+Parts of a Function
+1️⃣ Function Definition
+2️⃣ Function Call
+
+Function Definition Example
+
+
+
+def sum_of_numbers(a, b, c):
+    print("The sum is :", a + b + c)
+sum_of_numbers(9, 2, 1)  #Function Call
+
+
+
+
+Output
+The sum is : 12
+Function Example - Multiple Statements
+def interview_process():
+    print("Interview start")
+    print("First round: Introduction")
+    print("Second round: Machine coding round")
+    print("Third round: HR round")
+    print("Now, YOU are selected")
+
+interview_process()
+
+
+Output
+Interview start
+First round: Introduction
+Second round: Machine coding round
+Third round: HR round
+Now, YOU are selected
+
+
+✔️ A function call executes all lines inside the function
+Function Syntax
+Definition:
+def my_function_name(parameters):
+    # body
+
+
+Call:
+my_function_name(arguments)
+
+📌 Taking Input from User
+input() → allows user to type data
+Example:
+a = int(input("Enter a number: "))
+
+
+📌 Always convert to int when using numbers
+
+
+Task: Check Even or Odd using Function
+Without return (printing inside function)
+def check_even_odd(num):
+    if num % 2 == 0:
+        print("This is even number:", num)
+    else:
+        print("This is odd number:", num)
+
+print("Hiii, Start")
+
+check_even_odd(77)
+
+print("Loop Testing:")
+for i in range(0, 12):
+    if i == 7:
+        continue
+    print(i)
+
+check_even_odd(89)
+
+my_listt = ["Ravi", "rohit", 44, 55, 88]
+for i in my_listt:
+    if i == 44:
+        break
+    print(i)
+
+check_even_odd(90)
+
+
+
+(Outputs will show even/odd results + loops results)
+
+
+
+
+With return (Recommended)
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+number = int(input("Enter a number: "))
+
+result = check_even_odd(number)
+print(f"The number {number} is {result}.")
+
+
+
+Example Output
+Enter a number: 9
+The number 9 is Odd.
+
+

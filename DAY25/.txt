@@ -1,0 +1,117 @@
+Set :- A set is a collection in Python.
+
+
+ It has the following features:
+It is unordered
+It is unindexed
+It cannot contain duplicate elements
+It stores only unique elements
+It is mutable
+
+
+Example:
+set   = {11, 22, 33, 44, 55,“Ujjwal”,“Ravi”,5.2}
+
+
+
+
+Duplicate Removal in Set
+my_set = {11, 22, 33, 44, 55, 11, 22, 33}
+print("this is actual elements of this set :", my_set)
+
+
+Output
+this is actual elements of this set : {33, 11, 44, 22, 55}
+
+
+Duplicate values (11, 22, 33) were removed automatically by the set.
+
+Set Methods
+
+1. add() – Add a Single Element
+my_set = {11, 22, 33, 55, 44, 2}
+print("before adding element :", my_set)
+
+my_set.add(77)
+print("after adding element  :", my_set)
+
+
+Output
+before adding element : {33, 2, 11, 44, 22, 55}
+after adding element  : {33, 2, 11, 44, 77, 22, 55}
+
+
+
+2. update() – Add Multiple Elements
+my_set = {11, 22, 33, 55, 44, 2}
+print("before adding element :", my_set)
+
+my_set.update({77, 999, 102})
+print("after adding element  :", my_set)
+
+
+Output
+before adding element : {33, 2, 11, 44, 22, 55}
+after adding element  : {33, 2, 102, 999, 11, 44, 77, 22, 55}
+
+
+
+3. remove() – Remove a Specific Element
+my_set = {11, 22, 33, 55, 44, 2}
+print("before removing element :", my_set)
+
+my_set.remove(22)
+print("after removing element  :", my_set)
+
+
+Output
+before removing element : {33, 2, 11, 44, 22, 55}
+after removing element  : {33, 2, 11, 44, 55}
+
+
+
+Set Does NOT Support Indexing
+my_set = {11, 22, 33, "rahul", "ravi", 8.8}
+print("before operation :", my_set)
+
+# print(my_set[4])   # ERROR → sets do not support indexing
+
+
+Output
+before operation : {'rahul', 33, 8.8, 11, 22, 'ravi'}
+
+
+(Attempting to access my_set[4] will raise an error.)
+
+
+Loop Through a Set
+my_set = {11, 22, 33, "rahul", "ravi", 8.8}
+print("before iteration :", my_set)
+
+for i in my_set:
+    print(i)
+
+
+Output
+before iteration : {'rahul', 33, 8.8, 11, 22, 'ravi'}
+rahul
+33
+8.8
+11
+22
+ravi
+
+
+
+Order may vary because sets are unordered.
+
+
+2. Home Work
+
+Research What Is Typecasting and its Used.
+
+
+Practice:
+pop() => remove random element from a set
+discard()  =>
+clear()
