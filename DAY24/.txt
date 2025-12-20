@@ -1,6 +1,6 @@
 1. Mutable and Immutable
 Mutable OR Changeable: => it can be changed entirely as well as specifically.
-Example: List, Dictionary, Set
+Example: List, tionDicary, Set
 
 Immutable OR Unchangeable: => it can be changed entirely but not specifically.
 Example: Tuple, String, Frozen Set
