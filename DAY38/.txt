@@ -1,0 +1,71 @@
+# class Father:
+#                     hotel = "Gupta Sweets"
+
+#                     restaurant = "Veenu Restaurant"
+
+
+# my_obj = Father()
+
+# print(my_obj.restaurant)
+# print(my_obj.hotel)
+
+
+
+# except C language , almost languge supports OOPS programming.
+
+
+
+# class Aakansha_Bank_details:
+#                     bank_name = "SBI"
+#                     account_no = 11111111
+#                     __bank_balance = 99999 # private variable 
+#                     __atm_pin = 9898   # private variable 
+
+
+# my_obj = Aakansha_Bank_details()
+
+# print(my_obj.__atm_pin)
+
+# Python supports Object-Oriented Programming (OOP), which helps you write clean, reusable, and organized code.
+# The two core concepts of OOP are Class and Object.
+
+
+# A class is a template used to create objects.
+
+# It defines properties (variables) and behaviors (methods/functions) that objects created from it will have.
+
+
+
+# class Cricket:
+
+#                     number_of_plyrs = 11
+                    
+#                     oneday_overs = 50
+
+#                     t20_overs = 20 
+
+                    
+
+# object => it is an instance of a class, that contines real world entity. 
+
+# => it is just like a collection of variables and methods.
+
+
+
+class Aditya:
+                    hotel = "Gupta Sweets"
+                    def aditya_assets(self):
+                                        print("aditya assets ")
+
+# print(hotel) # it gives error 
+my_obj = Aditya()
+
+print(my_obj.hotel)
+my_obj.aditya_assets()
+
+OOPS 4 pillors : 
+
+1. Inheritance
+2. Encapusulation
+3. Polymorphism
+4. Abstraction

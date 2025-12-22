@@ -1,0 +1,73 @@
+# OOPs programming :-
+
+
+# C language does not support oops
+
+# C++, js, PHP, Java, Python support oops programming.
+
+
+# variable => function => class 
+
+
+# Pending class : Global Variable and Local variable 
+
+
+
+
+# class Student:
+#                     std_name = "Ujwal"
+#                     branch = "CSE"
+
+#                     def student_info(self):
+#                                         print("here is the all student information")
+                    
+
+
+# print(std_name)
+
+
+
+
+# Local Variable and Global Variable 
+
+# Local Variable => it can be accessed inside function only .
+
+
+
+
+
+
+# Global Variable => it can be accessed anywhere.
+
+# default_std_name = "Ujwal"  # Global variable 
+
+
+# print(default_std_name)
+
+
+
+# def student_info():
+#                     std_name = "SHivam" 
+#                     print("inside this function:", default_std_name)
+#                     print("here is the student information")
+#                     print("inside this function: ", std_name)
+
+# student_info()
+
+# print("outside this function: ", default_std_name)
+
+
+# ------------------------------------------------------------ 
+
+
+
+
+def student_info():
+                    std_name = "SHivam"  # Local Variable 
+
+                    print("here is the student information")
+                    print("inside this function: ", std_name)
+
+student_info()
+
+print("student name variable : ", std_name)

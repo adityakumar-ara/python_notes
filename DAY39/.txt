@@ -1,0 +1,99 @@
+ # Four pillors of OOPS programming :-
+
+# 1. Inheritence
+# 2. Polymorphism
+# 3. Abstraction
+# 4. Encapsulation
+
+
+# class Company:
+#                     cmp_name = "TCS"
+#                     number_of_emp = 600
+
+#                     def comp_info(self):
+#                         print("it's all about regarding this company")
+
+# my_obj = Company() 
+
+# print(my_obj.cmp_name)
+
+# my_obj.comp_info()
+
+
+
+# class Virat_Kohli:
+
+#                     jercy_no = 18
+
+#                     bat_brand = "MRF"
+
+# # print(jercy_no) # it gives error 
+
+# virat_obj = Virat_Kohli()
+
+# print(virat_obj.jercy_no)
+
+
+
+# ------------------------- Inheritence --------------- 
+
+
+# Rohan => Brown Eyes / Green Eyes / Blue Eyes
+
+# Reason :-
+
+# => because his father OR mother might have brown eyes.
+
+
+
+# ------------------------------------------------------- 
+
+
+# Sourabh  => Father  => Hotel (Bhardwaj Villa)
+
+# Rohit   => Son of Sourabh => Rohit's property => Bhardwaj Villa
+
+
+# Inhertence : - 
+
+
+# class Father:
+
+#                     father_property = "Bhardwaj Empire"
+                    
+# class Son:
+#                     son_property = "Mohit Pan dukan"
+
+
+# son_obj = Son()
+
+# print(son_obj.son_property)
+# print(son_obj.father_property) # it gives error 
+
+
+
+# ---------------------------------------------------- 
+
+
+# class Father:
+
+#                     father_property = "Bhardwaj Empire"
+                    
+
+# class Son(Father):
+#                     son_property = "Mohit Pan dukan"
+
+
+# son_obj = Son()
+
+# print(son_obj.son_property)
+# print(son_obj.father_property)
+
+
+# # types of Inhertence 
+
+# Single Inheritence 
+# Multiple Inheritence
+# Multilevel Inheritence
+# Hierarchical Inheritence
+# Hybrid Inheritence
