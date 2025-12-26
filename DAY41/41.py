@@ -1,0 +1,50 @@
+# class Shivam:
+#                     shivam_bank_name = "SBI"
+#                     shivam_account_name = "Salary account"
+#                     shivam_account_no = 78979379
+#                     shivam_bank_balance = 200000
+#                     shivam_atm_pin = 8989
+
+# shivam_obj = Shivam()
+
+# print("Shivam bank name: ", shivam_obj.shivam_bank_name)
+
+
+# -------------------------------------------------------- 
+
+
+# class Shivam:
+#                     shivam_bank_name = "SBI"
+#                     shivam_account_name = "Salary account"
+#                     _shivam_account_no = 78979379  # protected
+#                     __shivam_bank_balance = 200000  # private
+#                     __shivam_atm_pin = 8989  # private
+
+# shivam_obj = Shivam()
+
+# print("Shivam bank name: ", shivam_obj.shivam_bank_name)
+# print("shivam atm pin number :", shivam_obj.__shivam_atm_pin)  # error
+
+# ---------------------------------------------------------------- 
+
+
+
+
+
+# class Shivam:
+#                     shivam_bank_name = "SBI"
+#                     shivam_account_name = "Salary account"
+#                     _shivam_account_no = 78979379  # protected
+#                     __shivam_bank_balance = 200000  # private
+#                     __shivam_atm_pin = 8989  # private
+
+#                     def shivm_bank_info(self):
+#                              print("hii, SHivam here is your bank information , please keep it secret!")
+#                              print("shivam bank name: ", self.shivam_account_name)
+#                              print("shivam acount no: ", self._shivam_account_no)
+#                              print("shivam bank balance : ", self.__shivam_bank_balance)
+
+# shivam_obj = Shivam()
+
+# print("Shivam bank name: ", shivam_obj.shivam_bank_name)
+# shivam_obj.shivm_bank_info()

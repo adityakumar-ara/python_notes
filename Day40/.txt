@@ -1,0 +1,63 @@
+*Multgible Inharitage* # class Grandfather:
+#     grendfather_Assets = "Grand Complex"
+
+# class Father(Grandfather):
+#     father_Assets = "Father Complex"
+
+# father_obj = Father()
+
+# print(father_obj.grendfather_Assets)
+# print(father_obj.father_Assets)
+
+# ---------------------------------------------
+
+class Grandfather:
+    grendfather_Assets = "Grand Complex"
+
+class Father(Grandfather):
+    father_Assets = "Father Complex"
+
+class Son(Father):
+    son_Assents = "Son Complex"
+
+class Grandson(Son):
+    Grandson_Assets = "Grandson Complex"
+
+grandson_obj = Grandson()
+print(grandson_obj.grendfather_Assets)
+print(grandson_obj.father_Assets)
+print(grandson_obj.son_Assents)
+print(grandson_obj.Grandson_Assets)
+
+*hierarchican* class father:
+    father_assets = "Bharat Petrolium"
+class child1(father):
+    child1_assets = "BMW"
+class child2(father):
+    child2_assets = "Fortuner"
+
+child1_obj = child1()
+print(child1_obj.father_assets)
+print(child1_obj.child1_assets)
+
+child2_obj = child2()
+print(child2_obj.father_assets)
+print(child2_obj.child2_assets)
+
+
+
+-----------------------------------*Hybrid*---------------------------------------------
+class Grandfather:
+    grendfather_Assets = "Grand Complex"
+
+class Father(Grandfather):
+    father_Assets = "Father Complex"
+
+class Son(Father):
+    son_Assents = "Son Complex"
+
+class Grandson(Grandfather , Father):
+    Grandson_Assets = "Grandson Complex"
+
+grandson_obj = Grandson()
+print(grandson_obj.Grandson_Assets)
