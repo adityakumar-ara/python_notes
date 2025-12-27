@@ -60,7 +60,3 @@ shivam_obj = Shivam()
 
 print("Shivam bank name: ", shivam_obj.shivam_bank_name)
 shivam_obj.shivm_bank_info()
-
-@96744373268531 
-
-attach any image of 💊
